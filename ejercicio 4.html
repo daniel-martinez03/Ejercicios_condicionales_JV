@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Ejercicio 4</title>
+	</head>
+	<script>
+	    /*
+	    Un vendedor tiene  un suledo base en una empresa y recibe comisiones por sus ventas.
+	    El vendedor el mes pasado realizo 3 ventas, por si cada venta le dan el 15% de la venta
+	    realizada. Calcule la comision, muestre el salario base y la comision por 
+	    ventas.
+	  
+	    */
+	var sueldo_base=parseFloat(prompt("Ingrese el sueldo base"))
+	var venta1=parseFloat(prompt("Ingrese el valor de la venta1"))
+	var venta2=parseFloat(prompt("Ingrese el valor de la venta2"))
+	var venta3=parseFloat(prompt("Ingrese el valor de la venta3"))
+	var comision_V1=0.15 * venta1
+	var comision_V2=0.15 * venta2
+	var comision_V3=0.15 * venta3
+	var comision=comision_V1 + comision_V2 + comision_V3
+	var salario_final=sueldo_base + comision
+	alert(`El salario base es de:${sueldo_base}`)
+	alert(`Comision por ventas:${comision}`)
+	alert(`El salario final:${sueldo_final}lempiras`)
+	</script>
+	<body>
+	    
+	</body>
+	</html>
